@@ -10,9 +10,14 @@ body{
     color: #272142;  
 }
 
+.container{
+margin-right: 0px;
+}
+
 h1 {
     font-family: var(--heading-font-family);
-    font-size: 96px;
+    font-size: 96px;    
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -25,10 +30,12 @@ p {
     font-size: 16px;
 }
 
+.project-description{
+    padding: 0px 20px;
+}
+
 div{
     display: block;
-    margin-left: 10px;
-    margin-bottom: 15px;
 }
 
 .hero{
@@ -40,15 +47,12 @@ div{
 .hero p{
     font-size: 36px;
     font-weight: bold;
-    margin: 0;
-    color: #272142;
 }
 
 .hero h2{
     font-size: 36px;
     font-weight: normal;
     line-height: 2;
-    color: #272142;
 }
 
 .btn-branding{
@@ -61,13 +65,30 @@ div{
     margin-top: 30px;
 }
 
-.btn-branding-outline{
-    background: var(--branding-color);
-    border: 1px solid var(--branding-color);
-    border-radius: 6px;
-    color: white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-    margin-top: 30px;
+@media (max-width:567px){
+    h1, h2{
+        font-size: 34px;
+        }
+        .hero{
+            padding: 60px 20px;
+}
+}
+
+@media (max-width: 940px){
+    .project-description{
+        padding: 0;
+        text-align: center;
+    }
+    h1{
+    font-size: 44px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .hero{
+        padding: 80px 20px;
+}
+.col-sm-5{
+    max-width: 100%;
+}
 }
