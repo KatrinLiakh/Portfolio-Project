@@ -85,6 +85,13 @@ div{
     border-color: var(--branding-color);
     color: var(--branding-color);
 }
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--branding-color);}
+
+.navbar-brand{
+    color: #272142; 
+    font-family: var(--heading-font-family);
+}
 
 @media (max-width: 567px){
     h1, h2{
