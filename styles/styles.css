@@ -94,12 +94,21 @@ div{
 }
 
 @media (max-width: 567px){
-    h1, h2{
-        font-size: 34px;
-        }
-        .hero{
-            padding: 60px 20px;
+    .about-section h1{
+        font-size: 45px;
+        line-height: 60px;
+        }}
+        
+.col-sm-5{
+    max-width: 100%;
 }
+#my-photo{
+    max-width: 250px;
+}
+.about-section {
+    text-align: center;
+    padding: 60px 20px;
+    margin: 0px;
 }
 
 @media (max-width: 940px){
@@ -116,8 +125,5 @@ div{
     }
     .hero{
         padding: 80px 20px;
-}
-.col-sm-5{
-    max-width: 100%;
 }
 }
