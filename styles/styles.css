@@ -66,18 +66,18 @@ div{
     line-height: 2;
 }
 
-.about-section{
+.content-section{
     text-align: center;
-    padding: 160px 20px;
+    padding: 100px 20px;
     margin: 30px;
 }
-.about-section h1{
+.content-section h1{
     font-size: 64px;
     line-height: 80px;
     text-align: center;
     padding: 0px;
 }
-.about-section h2{
+.content-section h2{
     font-size: 18px;
     font-family: var(--default-font-family);
 }
@@ -120,10 +120,10 @@ footer .email-link{
     font-size: 24px;
 }
 
-.email-link:hover {
+footer .email-link:hover {
     color: var(--text-color);
 }
-.social-links a {
+footer .social-links a {
 margin: 0px 20px;
 padding: 10px 16px;
 border-radius: 50%;
@@ -151,7 +151,7 @@ background-color: var(--secondary-color);
         padding: 60px 20px;
 }
 
-.about-section {
+.content-section {
     text-align: center;
     padding: 60px 20px;
     margin: 0px;
@@ -159,7 +159,7 @@ background-color: var(--secondary-color);
 #my-photo{
     max-width: 100%;
 }
-.about-section h1{
+.content-section h1{
     font-size: 40px;
     line-height: 50px;
     }
@@ -173,14 +173,14 @@ background-color: var(--secondary-color);
         font-size: 45px;
         line-height: 60px;  
     }
-    .about-section h1{
+    .content-section h1{
         font-size: 45px;
         line-height: 60px;
         }
     .col-sm-5{
     max-width: 100%;
 }
-.about-section {
+.content-section {
     text-align: center;
     padding: 60px 20px;
     margin: 0px;
@@ -194,7 +194,7 @@ h4{
 }
 
 @media(max-width:300px){
-    .about-section h1{
+    .content-section h1{
         font-size: 35px;
         line-height: 60px;
         }.col-sm-5{
