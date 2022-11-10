@@ -32,6 +32,11 @@ h2{
     font-weight: 400;
     text-align: center;
 }
+
+h4{
+    font-size: 40px;
+}
+
 p {
     font-size: 16px;
 }
@@ -86,6 +91,14 @@ div{
     padding: 12px 28px;
     margin-top: 30px;
 }
+footer .contact-box{
+    border-radius: 10px;
+    background-color:var(--secondary-color);
+    padding: 30px 120px;
+}
+footer .contact-box p{
+    margin: 0px;
+}
 
 #my-photo{
     width: 400px;
@@ -101,6 +114,25 @@ div{
 .navbar-brand{
     color: var(--text-color); 
     font-family: var(--heading-font-family);
+}
+
+footer .email-link{
+    font-size: 24px;
+}
+
+.email-link:hover {
+    color: var(--text-color);
+}
+.social-links a {
+margin: 0px 20px;
+padding: 10px 16px;
+border-radius: 50%;
+font-size: 28px;
+transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover{    
+background-color: var(--secondary-color);
 }
 
 @media (max-width: 940px){
@@ -155,7 +187,11 @@ div{
 }
 .hero{
     padding: 60px 20px;
-}}
+}
+h4{
+    font-size: 30px;
+}
+}
 
 @media(max-width:300px){
     .about-section h1{
