@@ -2,6 +2,7 @@
     --branding-color: rgb(40, 6, 133);
     --secondary-color:  rgb(204, 204, 247);
     --text-color: #272142;
+    --red-color: #dc3545;
     --heading-font-family: 'Playfair Display', sans-serif;
     --default-font-family: 'Popins', sans-serif;
 
@@ -86,10 +87,17 @@ div{
     background: var(--branding-color);
     border-radius: 6px;
     color: white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 12px 28px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px 17px ;
     margin-top: 30px;
+}
+
+.btn-branding:hover{
+    border-color: var(--red-color);
+    background-color: var(--red-color);
+    color: white;
 }
 footer .contact-box{
     border-radius: 10px;
@@ -115,13 +123,17 @@ footer .contact-box p{
     color: var(--text-color); 
     font-family: var(--heading-font-family);
 }
+.btn-danger:hover {
+border-color: var(--text-color);
+background-color: var(--branding-color);
+}
 
-footer .email-link{
+.email-link{
     font-size: 24px;
 }
 
 footer .email-link:hover {
-    color: var(--text-color);
+    color: var(--red-color);
 }
 footer .social-links a {
 margin: 0px 20px;
